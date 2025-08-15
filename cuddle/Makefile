@@ -14,6 +14,8 @@ OBJ = $(SRC:.c=.o)
 
 CFLAGS = -g3
 
+CC = gcc
+
 EXTFLAGS = -L. -lcuddle -lm
 
 RM_LIST = src/*.o src/*.out src/*~ src/*\#
